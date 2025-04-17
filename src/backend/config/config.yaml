@@ -1,0 +1,19 @@
+nacos:
+  server_addr: "localhost"
+  port: 8848
+  namespace: "public"
+  group: "DEFAULT_GROUP"
+  data_id: "simpleFi-config"
+
+database:
+  host: "localhost"
+  port: 3306
+  username: "root"
+  password: "password"
+  dbname: "simplefi"
+
+redis:
+  host: "localhost"
+  port: 6379
+  password: ""
+  db: 0 
